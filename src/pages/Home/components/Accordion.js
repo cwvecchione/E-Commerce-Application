@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { propTypes } from 'prop-types';
 
 export const Accordion = ({faq}) => {
     const {question, answer} = faq;
@@ -23,3 +24,8 @@ export const Accordion = ({faq}) => {
         </div>
     )
 }
+
+Accordion.propTypes = {
+    faq: propTypes.object
+};
+

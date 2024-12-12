@@ -5,14 +5,14 @@ import { Testimonials } from "./components/Testimonials";
 import { Faq } from "./components/Faq";
 
 export const HomePage = () => {
-  useTitle("Access Latest Computer Science eBooks");
+    useTitle("Access Latest Computer Science eBooks");
 
-  return (
-    <main>
-        <Hero />
-        <FeaturedProducts />
-        <Testimonials />
-        <Faq />
-    </main>
-  )
+    return (
+        <main>
+            <Hero />
+            <FeaturedProducts />
+            <Testimonials />
+            <Faq />
+        </main>
+    )
 }
